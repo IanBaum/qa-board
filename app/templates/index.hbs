@@ -1,0 +1,9 @@
+<h1>Questions and Answers</h1>
+
+<p>Click on a link below to answer a question or fill out the form to make a new one.</p>
+
+<ul>
+  {{#each model as |question|}}
+  <li>{{question.title}}</li>
+  {{/each}}
+</ul>
