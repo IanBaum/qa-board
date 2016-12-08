@@ -2,4 +2,11 @@
 <br>
 <p>{{question.body}}</p>
 
-<button {{action 'delete' question}}>Delete</button>
+<h3>Answers</h3>
+<ul>
+  {{#each question.answers as |answer|}}
+    <li>{{answer.content}} - {{answer.author}}</li>
+  {{/each}}
+</ul>
+
+<!-- <button {{action 'delete' question}}>Delete</button> -->

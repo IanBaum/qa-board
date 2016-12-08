@@ -1,7 +1,7 @@
 <p>Click on a link below to answer a question or fill out the form to make a new one.</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </ul>
