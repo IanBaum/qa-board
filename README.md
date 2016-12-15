@@ -1,7 +1,10 @@
-# Qa-board
+# _QA-Board_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _This app is a simple test site to make a functioning form with corresponding answers
+, 12/15/16_
+
+#### By _**Ian Baum**_
+
 
 ## Prerequisites
 
@@ -14,40 +17,20 @@ You will need the following things properly installed on your computer.
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
+Run the following commands in your console.
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone https://github.com/IanBaum/qa-board.git`
+* `cd qa-board`
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `ember serve` or `ember s`
+* Open `localhost:4200` in your browser
 
-### Code Generators
+### License
 
-Make use of the many generators for code, try `ember help generate` for more details
+*Licensed under the MIT license*
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Ian Baum_**
