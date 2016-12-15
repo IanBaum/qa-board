@@ -1,7 +1,6 @@
 # _QA-Board_
 
-#### _This app is a simple test site to make a functioning form with corresponding answers
-, 12/15/16_
+#### _This app is a simple test site to make a functioning form with corresponding answers, 12/15/16_
 
 #### By _**Ian Baum**_
 
