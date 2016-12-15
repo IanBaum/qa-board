@@ -7,7 +7,7 @@ export default Ember.Route.extend({
 
   actions:{
     update(question, params){
-      Object.keys(params).forEah(function(key){
+      Object.keys(params).forEach(function(key){
         if(params[key]!==undefined){
           question.set(key,params[key]);
         }
