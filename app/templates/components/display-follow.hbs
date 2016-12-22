@@ -1,0 +1,3 @@
+{{#each followed.items as |question|}}
+{{#link-to 'question' question.id}}{{question.title}} - {{question.author}}{{/link-to}}
+{{/each}}

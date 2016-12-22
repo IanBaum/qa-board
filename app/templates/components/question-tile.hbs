@@ -1,3 +1,4 @@
 <li>
   {{#link-to 'question' question.id}}{{question.title}} - {{question.author}}{{/link-to}}
+  <button {{action 'followQuestion' question}}>Follow</button>
 </li>
