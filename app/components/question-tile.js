@@ -8,8 +8,8 @@ export default Ember.Component.extend({
   }),
 
   actions: {
-    followQuestion(post){
-      this.get('followed').add(post);
+    followQuestion(question){
+      this.get('follow').add(question);
     },
   }
 });
