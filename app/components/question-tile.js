@@ -1,11 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  followed: Ember.inject.service(),
+  follow: Ember.inject.service(),
+
+  numberOfAnswers: Ember.computed('question.answers.length', function (){
+    return ' ' + this.get('question.answers.length') + ' Answers';
+  }),
 
   actions: {
-    followQuestion(item){
-      this.get('followed').add(item);
+    followQuestion(post){
+      this.get('followed').add(post);
     },
   }
 });
